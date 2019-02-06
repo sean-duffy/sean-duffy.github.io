@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.45.1" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Making Your Dotfiles Portable &middot; Sean Duffy</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="http://www.seanduffy.co.uk/css/style.css">
+  <link type="text/css" rel="stylesheet" href="http://www.seanduffy.co.uk/css/pictonic/css/pictonic.css">
+  <link href='http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT:regular,italic' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Sean Duffy" />
+
+  
+</head>
+
+	<body>
+		<div id='main_wrap'>
+			<div id='page_head'>
+	<header>
+		<a href='/'><h1>sean duffy</h1></a>
+	</header>
+	<nav>
+		<a href='/'>blog</a>
+		 - 
+		<a href='/about/'>about</a>
+		 - 
+		<a href='/projects/'>projects</a>
+		 - 
+		<a href='/archive/'>archive</a>
+	</nav>
+</div>
+      
+			<div class="post">
+  <h1>Making Your Dotfiles Portable</h1>
+  <time datetime=2013-09-16T10:00:00Z class="post-date">Posted on September 16, 2013</time>
+  <p>As a developer I use command line programs like Vim and Git on a daily basis, and like most developers I like to have them configured in a way particular to my liking. For this reason I&rsquo;ve recently made a move which allows my configuration files, or dotfiles as they are known, to be portable across any computer or remote server I happen to be working on.</p>
+
+<p>My method of doing this uses a hosted Git repository and a simple bash script. This setup also has the benefit that it puts my dotfiles under distributed source control, and allows me to share them with others by using a public repository on GitHub. This post is a brief tutorial on how to use this method yourself.</p>
+
+<p>The first step is to move all the dotfiles you&rsquo;re interested in to an unhidden folder called <em>&lsquo;dotfiles&rsquo;</em> in your home directory. This allows you to edit and view them more easily and avoids the mess of initialising a Git repository in your home directory. For example if you were moving your Vim configuration, you&rsquo;d do the following.</p>
+
+<script src="https://gist.github.com/sean-duffy/fe7d7579c996e3a29ef7.js"></script>
+
+<p>Next, you should initialise a git repository in your dotfiles directory, adding all of the dotfiles you&rsquo;ve put in there and making your initial commit. You can then create a repository on GitHub or another Git hosting service and add it as a remote for the repository you created in the dotfiles directory. To do that, I did this.</p>
+
+<script src="https://gist.github.com/sean-duffy/2471d34fffe35a18cf16.js"></script>
+
+<p>Now your dotfiles are portable, and to get them onto the machine you&rsquo;re using all you have to do is <strong>git clone</strong> your hosted repository. However the configuration won&rsquo;t work yet, as they&rsquo;re in your dotfiles directory and the relevant programs can&rsquo;t find them there. This problem is solved by a simple bash script which creates symlinks from the home directory to each of the files in your dotfiles directory.</p>
+
+<script src="https://gist.github.com/sean-duffy/ab88875fd7ccd90372ec.js"></script>
+
+<p>This script will create symlinks from the home directory for all of the unhidden files in your dotfiles directory except for <em>&lsquo;README.md&rsquo;</em>, since if your repository is public you&rsquo;ll probably want one of these, but you won&rsquo;t want a symlink created for it. To use this script just save it in your dotfiles directory as <em>&rsquo;.make&rsquo;</em>. To run it, you&rsquo;ll have to make it executable using the following command.</p>
+
+<script src="https://gist.github.com/sean-duffy/dfec7401beb66a9f55c0.js"></script>
+
+<p>Now your dotfiles are portable and can be accessed by their respective utilities, and each time you&rsquo;re on a different machine where you&rsquo;d like your settings, all you have to do is delete any occurrences of the dotfiles you want to use, clone in your own dotfiles from GitHub and run the make script. In my case, I do the following.</p>
+
+<script src="https://gist.github.com/sean-duffy/cdf8a3270f0ff76e93a1.js"></script>
+
+<p>I hope you enjoyed this post, if you found it helpful or need some help, please feel free leave a reply in the comments!</p>
+
+</div>
+
+
+
+			<div id='page_footer'>
+	<p>
+		<a href='http://www.github.com/sean-duffy' title='My Github'><span class='icon-github-01'></span></a>
+		<a href='http://www.soundcloud.com/sean-duffy' title='My SoundCloud'><span class='icon-soundcloud'></span></a>
+		<a href='http://www.youtube.com/seanduffyproductions' title='My YouTube'><span class='icon-youtube'></span></a>
+		<a href='http://www.sean-duffy.tumblr.com' title='My Tumblr'><span class='icon-tumblr'></span></a>
+	</p>
+</div>
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.45.1" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Project: Race Quad Build &middot; Sean Duffy</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="http://www.seanduffy.co.uk/css/style.css">
+  <link type="text/css" rel="stylesheet" href="http://www.seanduffy.co.uk/css/pictonic/css/pictonic.css">
+  <link href='http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT:regular,italic' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Sean Duffy" />
+
+  
+</head>
+
+	<body>
+		<div id='main_wrap'>
+			<div id='page_head'>
+	<header>
+		<a href='/'><h1>sean duffy</h1></a>
+	</header>
+	<nav>
+		<a href='/'>blog</a>
+		 - 
+		<a href='/about/'>about</a>
+		 - 
+		<a href='/projects/'>projects</a>
+		 - 
+		<a href='/archive/'>archive</a>
+	</nav>
+</div>
+      
+			<div class="post">
+  <h1>Project: Race Quad Build</h1>
+  <time datetime=2016-03-23T10:00:00Z class="post-date">Posted on March 23, 2016</time>
+  <p>For the past two years, the <a href="http://www.seanduffy.co.uk/blog/2013/8/Project:-Quadcopter-Build/">quadcopter I built</a> has served me well. It&rsquo;s had a lot of flight time, including had a few crashes and repairs, and still it flies very well. However, a couple of months ago I decided now was the time to venture outside of line-of-sight flying and into the world of FPV (First Person View).</p>
+
+<p>Although it&rsquo;s only been two years since I built my last quadcopter, a lot has changed in the multirotor hobby in that time. The main trend is that FPV, flying a drone through its point of view via a video link, has become much more popular. This has lead to the development of drone racing, where small, precisely tuned quads fly around challenging aerial tracks.</p>
+
+<p>The &lsquo;race quads&rsquo; used in drone racing and <a href="https://www.youtube.com/watch?v=WQyVEivFMrA">freestyle flying</a> tend to be small (around 250mm in diameter) with  frames made from crash-proof materials such as carbon fibre. There are many variations of frames in this style, with more being designed all the time. Some examples include the <a href="http://www.lumenier.com/products/multirotors/qav250">Lumenier QAV250</a> and <a href="http://impulserc.com/alien-6-fpv-frame">ImpulseRC Alien</a>.</p>
+
+<p>The frame that really appealed to me as soon as it was released was yet another Flite Test product, the <a href="http://flitetest.com/articles/versacopter">Versacopter Race Quad</a>. At 280mm, this frame is around half the size of my previous build, and it opts for carbon fibre and tough G10 plastic rather than wood. Thanks to the great build video provided, it didn&rsquo;t take long to assemble and the built-in power distribution made soldering the electronics very neat and tidy. Below is a listing of the parts I used.</p>
+
+<ul>
+<li>Flite Test Versacopter V1 Quad Kit</li>
+<li>Emax MT2204-II 2400kv &ldquo;Cooling Series&rdquo; Motors</li>
+<li>Emax 12A BLHeli Series ESCs</li>
+<li>DAL &lsquo;Unbreakable&rsquo; 6045 Propellers</li>
+<li>Naze32 Acro Control Board</li>
+<li>FrSky X4R-SB Receiver</li>
+</ul>
+
+<p><img src="https://farm2.staticflickr.com/1509/25985299505_6b7747c1e5_c.jpg" alt="The Assembled Versacopter" title="The Assembled Versacopter" /></p>
+
+<p>When the first version of the Versacopter started selling some people were reporting durability problems with some parts of the frame, and Flite Test set about making arrangements to put together a stronger <a href="http://store.flitetest.com/ft-versacopter-280-v2-quad-kit/">Versacopter V2</a> and a an upgrade kit for the Versacopter V1. They ended up coming up with a design that used some very nice machined aluminium parts, so I bought the <a href="http://store.flitetest.com/versacopter-aluminum-upgrade-coming-soon/">upgrade kit</a> to add some extra resilience to the quad. The new aluminium motor mounts can be seen in the second photo further down the page.</p>
+
+<p>Since I would be flying this quad line-of-sight to begin with, I adorned it with red and green propellers to help me maintain orientation. One of the advances in the hobby over the last couple of years that can&rsquo;t be ignored is the increase in quality of affordable control boards. For this build I went for a Naze32 loaded with the open source <a href="http://cleanflight.com">Cleanflight</a> software.</p>
+
+<p><img src="https://lh3.googleusercontent.com/WURRlMNkBW4InVgkOkJTmeOvOGQUrkYoR3vlQ5jUy2nRt2ibjgdSy52BYf2i5VGwWOTB1157=s640-h400-e365" alt="Cleanflight" title="The Cleanflight Configurator" /></p>
+
+<p>Cleanflight is a much improved rewrite of MultiWii, one of the early multirotor control packages, which supports 32-bit hardware and uses modern software development practises. It comes with a fantastic cross-platform GUI for configuring every aspect of your drone. I used this for the initial set up, including setting up SBUS communication with my FrSky X4R-SB receiver and tuning my PID values.</p>
+
+<p>Once I&rsquo;d taken my new quad for a few line-of-sight flights, including a few crashes (with no damage fortunately), I decided it was time to add an FPV setup. The most expensive part of any FPV system is typically the viewing device, many race quad pilots use video goggles such as those by Fat Shark. Instead of splashing out on FPV goggles, I decided to start off with an FPV monitor I could attach to the front of my transmitter. This has the added benefit that when I do upgrade to goggles, I can use the monitor to allow friends or interested passers by to see what I&rsquo;m seeing and enjoy the FPV experience.</p>
+
+<p><img src="https://farm2.staticflickr.com/1653/25989454365_c91475c832_c.jpg" alt="The Transmitter and Monitor" title="My Taranis with the monitor attached" /></p>
+
+<p>The monitor I ended up getting was the Eachine LCD5802S, which features a sunshade and built-in battery and 5.8GHz receiver. I attached this to my FrSky Taranis using a FlyCamOne mount. The Taranis with the attached monitor is quite heavy, so I tend to prefer sitting down while flying with it.</p>
+
+<p>As for the transmitting side of the system, I fitted a very compact CC1568 600TVL wide-angle camera to the front of my quad. This is then hooked up to an Aomway TX25 5.8GHz video transmitter with an ImmersionRC SpiroNET antenna. I also have my Mobius Action Cam mounted on the front of the quad for recording HD video. It is possible to send the video feed from the Mobius to my video transmitter, removing the need for an additional camera, however since this introduces considerable latency to the video feed I decided not to do it.</p>
+
+<p>In terms of batteries I&rsquo;m using 3S LiPos, I have a couple of Turnigy 2200mAh ones from my larger quadcopter which it flies quite well with, and I&rsquo;ve also bought some 1400mAh Multistars which weigh considerably less and so despite the smaller capacity I get a comparable flight time. My flight time ranges from 5 minutes if I&rsquo;m really punching the throttle to 9 minutes with slower flying.</p>
+
+<p><img src="https://farm2.staticflickr.com/1475/25963527426_3647d1d215_c.jpg" alt="Quad with FPV" title="The Versacopter, upgraded with aluminium and fully ready for FPV" /></p>
+
+<p>It&rsquo;s worth noting that before attempting to fly this quad FPV I put quite a few hours into practicing on the simulators <a href="https://fpv-freerider.itch.io/fpv-freerider">FPV Freerider</a> and <a href="http://www.liftoff-game.com">Liftoff</a>. Both are really great and very affordable, I highly recommend them. Liftoff has a good variety of tracks and models video noise which is a nice detail, and FPV Freerider is very good if you have an older machine that doesn&rsquo;t run games too well.</p>
+
+<p>Between now and when I finished the FPV setup on Friday I&rsquo;ve managed to fit in three FPV sessions, and I loved every minute of them. I&rsquo;m gradually building confidence and I can&rsquo;t wait to fly in more locations and try some tricks. Below I&rsquo;ve embedded a video of some footage from my most recent FPV session.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/y0uWKxKC6NU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+</div>
+
+
+
+			<div id='page_footer'>
+	<p>
+		<a href='http://www.github.com/sean-duffy' title='My Github'><span class='icon-github-01'></span></a>
+		<a href='http://www.soundcloud.com/sean-duffy' title='My SoundCloud'><span class='icon-soundcloud'></span></a>
+		<a href='http://www.youtube.com/seanduffyproductions' title='My YouTube'><span class='icon-youtube'></span></a>
+		<a href='http://www.sean-duffy.tumblr.com' title='My Tumblr'><span class='icon-tumblr'></span></a>
+	</p>
+</div>
+
+		</div>
+	</body>
+</html>

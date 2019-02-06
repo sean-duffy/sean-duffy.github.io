@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.45.1" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Project: ScraperWiki XLSX Endpoint &middot; Sean Duffy</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="http://www.seanduffy.co.uk/css/style.css">
+  <link type="text/css" rel="stylesheet" href="http://www.seanduffy.co.uk/css/pictonic/css/pictonic.css">
+  <link href='http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT:regular,italic' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Sean Duffy" />
+
+  
+</head>
+
+	<body>
+		<div id='main_wrap'>
+			<div id='page_head'>
+	<header>
+		<a href='/'><h1>sean duffy</h1></a>
+	</header>
+	<nav>
+		<a href='/'>blog</a>
+		 - 
+		<a href='/about/'>about</a>
+		 - 
+		<a href='/projects/'>projects</a>
+		 - 
+		<a href='/archive/'>archive</a>
+	</nav>
+</div>
+      
+			<div class="post">
+  <h1>Project: ScraperWiki XLSX Endpoint</h1>
+  <time datetime=2014-09-08T10:00:00Z class="post-date">Posted on September 8, 2014</time>
+  <p>This summer I was invited to work for <a href="http://seanduffy.co.uk/blog/2013/8/ScraperWiki:-Part-I/">ScraperWiki</a>, and this post is about the project I spent most of my time on during this internship. The project in question was rewriting an endpoint that converts data in a SQL database to Excel Spreadsheet (XLSX) form for users to download and use. The current program was written in Python but was fairly slow and had the problem of consuming large amounts of system memory, sometimes causing failures in large datasets.</p>
+
+<p>Previously I was mostly doing Python development at ScraperWiki, but they&rsquo;ve been moving a lot of their new development to <a href="http://golang.org">Go</a>, so after introducing me to the problem, Peter gave me a quick introduction to Go and helped get me started on what I&rsquo;d be spending the next few weeks on. The proposal was to rewrite the program in such a way that it streamed the XLSX file to the user as it generated it, allowing it to run in a constantly sized window of memory. This also led to a speedup, as did it being written in Go, a compiled language.</p>
+
+<p>I did this by building on <a href="https://github.com/psmithuk/xlsx">psmithuk&rsquo;s xlsx</a>, which is a Go package for writing XLSX Spreadsheets. This package provided a great starting point, as I rewrote it in a way that could support streaming generation as described above. There were also many other changes needed, such as supporting XLSX files with multiple sheets, that required some reverse engineering and experimentation with the XLSX format. There is a <a href="http://www.ecma-international.org/publications/standards/Ecma-376.htm">standard</a> for the format, but it&rsquo;s very unwieldy and I found that running &lsquo;diff&rsquo; between my generated files and identical correct files written by Excel was often an easier way to find out where I&rsquo;d gone wrong.</p>
+
+<p>The fully functioning software currently lives in <a href="https://github.com/scraperwiki/xlsx/">ScraperWiki&rsquo;s fork of it</a>, but we&rsquo;re in the process of up-streaming it to psmithuk&rsquo;s repository. The other part of this XLSX endpoint is found <a href="https://github.com/scraperwiki/xlsx-cgi">here</a>.</p>
+
+<p>The XLSX endpoint was my main project at ScraperWiki and I&rsquo;m glad to say that it is fully deployed on the ScraperWiki website! It is a lot faster and deals much better with large sheets, with the peak memory usage being on the order of tens of megabytes rather than a potentially a few gigabytes as before.</p>
+
+</div>
+
+
+
+			<div id='page_footer'>
+	<p>
+		<a href='http://www.github.com/sean-duffy' title='My Github'><span class='icon-github-01'></span></a>
+		<a href='http://www.soundcloud.com/sean-duffy' title='My SoundCloud'><span class='icon-soundcloud'></span></a>
+		<a href='http://www.youtube.com/seanduffyproductions' title='My YouTube'><span class='icon-youtube'></span></a>
+		<a href='http://www.sean-duffy.tumblr.com' title='My Tumblr'><span class='icon-tumblr'></span></a>
+	</p>
+</div>
+
+		</div>
+	</body>
+</html>
