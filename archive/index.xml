@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Archive on Sean Duffy</title>
-    <link>http://www.seanduffy.co.uk/archive/</link>
+    <link>https://sean-duffy.github.io/archive/</link>
     <description>Recent content in Archive on Sean Duffy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     
-	<atom:link href="http://www.seanduffy.co.uk/archive/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sean-duffy.github.io/archive/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

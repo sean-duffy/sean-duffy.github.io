@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sean Duffy</title>
-    <link>http://www.seanduffy.co.uk/tags/</link>
+    <link>https://sean-duffy.github.io/tags/</link>
     <description>Recent content in Tags on Sean Duffy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 23 Mar 2016 10:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.seanduffy.co.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sean-duffy.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Project</title>
-      <link>http://www.seanduffy.co.uk/tags/project/</link>
+      <link>https://sean-duffy.github.io/tags/project/</link>
       <pubDate>Wed, 23 Mar 2016 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/tags/project/</guid>
+      <guid>https://sean-duffy.github.io/tags/project/</guid>
       <description></description>
     </item>
     

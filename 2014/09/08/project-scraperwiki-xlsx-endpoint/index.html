@@ -3,7 +3,7 @@
 <head>
   <link href="//gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.45.1" />
+  <meta name="generator" content="Hugo 0.54.0" />
 
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +11,8 @@
   <title>Project: ScraperWiki XLSX Endpoint &middot; Sean Duffy</title>
 
   
-  <link type="text/css" rel="stylesheet" href="http://www.seanduffy.co.uk/css/style.css">
-  <link type="text/css" rel="stylesheet" href="http://www.seanduffy.co.uk/css/pictonic/css/pictonic.css">
+  <link type="text/css" rel="stylesheet" href="https://sean-duffy.github.io/css/style.css">
+  <link type="text/css" rel="stylesheet" href="https://sean-duffy.github.io/css/pictonic/css/pictonic.css">
   <link href='http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT:regular,italic' rel='stylesheet' type='text/css'>
 
   
@@ -45,7 +45,7 @@
 			<div class="post">
   <h1>Project: ScraperWiki XLSX Endpoint</h1>
   <time datetime=2014-09-08T10:00:00Z class="post-date">Posted on September 8, 2014</time>
-  <p>This summer I was invited to work for <a href="http://www.seanduffy.co.uk/2013/09/03/scraperwiki-part-i/">ScraperWiki</a>, and this post is about the project I spent most of my time on during this internship. The project in question was rewriting an endpoint that converts data in a SQL database to Excel Spreadsheet (XLSX) form for users to download and use. The current program was written in Python but was fairly slow and had the problem of consuming large amounts of system memory, sometimes causing failures in large datasets.</p>
+  <p>This summer I was invited to work for <a href="https://sean-duffy.github.io/2013/09/03/scraperwiki-part-i/">ScraperWiki</a>, and this post is about the project I spent most of my time on during this internship. The project in question was rewriting an endpoint that converts data in a SQL database to Excel Spreadsheet (XLSX) form for users to download and use. The current program was written in Python but was fairly slow and had the problem of consuming large amounts of system memory, sometimes causing failures in large datasets.</p>
 
 <p>Previously I was mostly doing Python development at ScraperWiki, but they&rsquo;ve been moving a lot of their new development to <a href="http://golang.org">Go</a>, so after introducing me to the problem, Peter gave me a quick introduction to Go and helped get me started on what I&rsquo;d be spending the next few weeks on. The proposal was to rewrite the program in such a way that it streamed the XLSX file to the user as it generated it, allowing it to run in a constantly sized window of memory. This also led to a speedup, as did it being written in Go, a compiled language.</p>
 

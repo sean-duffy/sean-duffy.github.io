@@ -2,176 +2,176 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Sean Duffy</title>
-    <link>http://www.seanduffy.co.uk/posts/</link>
+    <link>https://sean-duffy.github.io/posts/</link>
     <description>Recent content in Posts on Sean Duffy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 23 Mar 2016 10:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.seanduffy.co.uk/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sean-duffy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Project: Race Quad Build</title>
-      <link>http://www.seanduffy.co.uk/2016/03/23/project-race-quad-build/</link>
+      <link>https://sean-duffy.github.io/2016/03/23/project-race-quad-build/</link>
       <pubDate>Wed, 23 Mar 2016 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2016/03/23/project-race-quad-build/</guid>
+      <guid>https://sean-duffy.github.io/2016/03/23/project-race-quad-build/</guid>
       <description>For the past two years, the quadcopter I built has served me well. It&amp;rsquo;s had a lot of flight time, including had a few crashes and repairs, and still it flies very well. However, a couple of months ago I decided now was the time to venture outside of line-of-sight flying and into the world of FPV (First Person View).
 Although it&amp;rsquo;s only been two years since I built my last quadcopter, a lot has changed in the multirotor hobby in that time.</description>
     </item>
     
     <item>
       <title>Project: Keyboard Conversion</title>
-      <link>http://www.seanduffy.co.uk/2015/10/13/project-keyboard-conversion/</link>
+      <link>https://sean-duffy.github.io/2015/10/13/project-keyboard-conversion/</link>
       <pubDate>Tue, 13 Oct 2015 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2015/10/13/project-keyboard-conversion/</guid>
+      <guid>https://sean-duffy.github.io/2015/10/13/project-keyboard-conversion/</guid>
       <description>Over the course of this year I have have developed an interest in mechanical keyboards, largely thanks to the /r/mechanicalkeyboards subreddit. This is probably one of the tech related niches that seems the strangest to outsiders, especially looking at the small subset of hardcore enthusiasts willing to pay hundreds of dollars for just a single keycap.
 Nevertheless, outside of the obsession with novelty keycaps, having a keyboard that looks and feels good makes perfect sense for someone likely to be typing for a good many hours.</description>
     </item>
     
     <item>
       <title>A summary of Summer</title>
-      <link>http://www.seanduffy.co.uk/2015/10/10/a-summary-of-summer/</link>
+      <link>https://sean-duffy.github.io/2015/10/10/a-summary-of-summer/</link>
       <pubDate>Sat, 10 Oct 2015 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2015/10/10/a-summary-of-summer/</guid>
+      <guid>https://sean-duffy.github.io/2015/10/10/a-summary-of-summer/</guid>
       <description>I&amp;rsquo;ve had a very busy and fairly productive summer, so in this post I&amp;rsquo;ll be summarising what I&amp;rsquo;ve been up to! After finishing my university exams and coming back home for the summer, I was pleased to learn that I&amp;rsquo;d scored 77% overall for my first year. My first year mark doesn&amp;rsquo;t actually count towards my degree, but it&amp;rsquo;s a good reassurance that yes, I indeed can do computer science!</description>
     </item>
     
     <item>
       <title>Moving to London</title>
-      <link>http://www.seanduffy.co.uk/2015/06/28/moving-to-london/</link>
+      <link>https://sean-duffy.github.io/2015/06/28/moving-to-london/</link>
       <pubDate>Sun, 28 Jun 2015 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2015/06/28/moving-to-london/</guid>
+      <guid>https://sean-duffy.github.io/2015/06/28/moving-to-london/</guid>
       <description>Three weeks ago, after a lot of hard work, revision and exams I finished second year! It was a good year, with plenty of new and interesting material, and an embedded systems group project which involved creating a networked &amp;lsquo;digital orchestra&amp;rsquo; and was a lot of fun. After two weeks at home, I moved to London to begin my summer internship at Morgan Stanley.
 After working at ScraperWiki last summer and experiencing the startup work style, I wanted to try something different, and this coupled with my interest in the finance industry lead me to decide to apply for internships at a few investment banks in London.</description>
     </item>
     
     <item>
       <title>Project: ScraperWiki XLSX Endpoint</title>
-      <link>http://www.seanduffy.co.uk/2014/09/08/project-scraperwiki-xlsx-endpoint/</link>
+      <link>https://sean-duffy.github.io/2014/09/08/project-scraperwiki-xlsx-endpoint/</link>
       <pubDate>Mon, 08 Sep 2014 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2014/09/08/project-scraperwiki-xlsx-endpoint/</guid>
+      <guid>https://sean-duffy.github.io/2014/09/08/project-scraperwiki-xlsx-endpoint/</guid>
       <description>This summer I was invited to work for ScraperWiki, and this post is about the project I spent most of my time on during this internship. The project in question was rewriting an endpoint that converts data in a SQL database to Excel Spreadsheet (XLSX) form for users to download and use. The current program was written in Python but was fairly slow and had the problem of consuming large amounts of system memory, sometimes causing failures in large datasets.</description>
     </item>
     
     <item>
       <title>Spring Term Update</title>
-      <link>http://www.seanduffy.co.uk/2014/04/01/spring-term-update/</link>
+      <link>https://sean-duffy.github.io/2014/04/01/spring-term-update/</link>
       <pubDate>Tue, 01 Apr 2014 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2014/04/01/spring-term-update/</guid>
+      <guid>https://sean-duffy.github.io/2014/04/01/spring-term-update/</guid>
       <description>It&amp;rsquo;s April and I&amp;rsquo;ve just come to the end of my second term at university! It seems to have flown by. Some news since my last post is that I&amp;rsquo;ve secured another internship at ScraperWiki for this summer! I&amp;rsquo;ll be looking forward to going back to work on more interesting problems and learn even more.
 Another bit of exciting news is that I recently bought a Mobius ActionCam to mount onto my quadcopter and hopefully get some good aerial footage!</description>
     </item>
     
     <item>
       <title>Autumn Term Update</title>
-      <link>http://www.seanduffy.co.uk/2013/12/15/autumn-term-update/</link>
+      <link>https://sean-duffy.github.io/2013/12/15/autumn-term-update/</link>
       <pubDate>Sun, 15 Dec 2013 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2013/12/15/autumn-term-update/</guid>
+      <guid>https://sean-duffy.github.io/2013/12/15/autumn-term-update/</guid>
       <description>Since I&amp;rsquo;ve come to the end of my first term at University and I&amp;rsquo;ve only made a single post since starting, I thought I&amp;rsquo;d better make one now to give an update on what I&amp;rsquo;ve been up to! So far the course has went well, and while providing a steady workload and a challenge, hasn&amp;rsquo;t been too difficult to cope with and I&amp;rsquo;ve also joined a couple of societies.
   In my previous post, I mentioned the Raspberry Pi challenges that were taking place in my first week.</description>
     </item>
     
     <item>
       <title>Moving to York</title>
-      <link>http://www.seanduffy.co.uk/2013/09/30/moving-to-york/</link>
+      <link>https://sean-duffy.github.io/2013/09/30/moving-to-york/</link>
       <pubDate>Mon, 30 Sep 2013 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2013/09/30/moving-to-york/</guid>
+      <guid>https://sean-duffy.github.io/2013/09/30/moving-to-york/</guid>
       <description>On Sunday I moved into my new home for the next year: Derwent College at the University of York. I&amp;rsquo;m here studying Computer Systems and Software Engineering, and so far my impression of the place has been great! I have catered accommodation in a very large shared room. My room-mate is Simon, who is studying Theoretical Physics and is from Scarborough.
-   Unpacking my things.         There&amp;rsquo;s plenty of space and we each have a desk, a wardrobe and cupboard and plenty of shelves.</description>
+ Unpacking my things.       There&amp;rsquo;s plenty of space and we each have a desk, a wardrobe and cupboard and plenty of shelves.</description>
     </item>
     
     <item>
       <title>ScraperWiki: Part III</title>
-      <link>http://www.seanduffy.co.uk/2013/09/25/scraperwiki-part-iii/</link>
+      <link>https://sean-duffy.github.io/2013/09/25/scraperwiki-part-iii/</link>
       <pubDate>Wed, 25 Sep 2013 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2013/09/25/scraperwiki-part-iii/</guid>
+      <guid>https://sean-duffy.github.io/2013/09/25/scraperwiki-part-iii/</guid>
       <description>I&amp;rsquo;ve now come to the end of my internship at ScraperWiki and I&amp;rsquo;m glad to say that it&amp;rsquo;s been a fantastic experience. Being able to work on interesting and challenging problems with experienced developers has been very enjoyable and has confirmed to me that I&amp;rsquo;ve chosen the right career path. I&amp;rsquo;ve also learnt a huge amount about various languages and technologies, and about the way software development companies work.
 During the summers of the next few years I&amp;rsquo;ll definitely be looking for similar opportunities to do internships at software companies, since even if they&amp;rsquo;re unpaid I think they&amp;rsquo;re worthwhile for the experience.</description>
     </item>
     
     <item>
       <title>Making Your Dotfiles Portable</title>
-      <link>http://www.seanduffy.co.uk/2013/09/16/making-your-dotfiles-portable/</link>
+      <link>https://sean-duffy.github.io/2013/09/16/making-your-dotfiles-portable/</link>
       <pubDate>Mon, 16 Sep 2013 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2013/09/16/making-your-dotfiles-portable/</guid>
+      <guid>https://sean-duffy.github.io/2013/09/16/making-your-dotfiles-portable/</guid>
       <description>As a developer I use command line programs like Vim and Git on a daily basis, and like most developers I like to have them configured in a way particular to my liking. For this reason I&amp;rsquo;ve recently made a move which allows my configuration files, or dotfiles as they are known, to be portable across any computer or remote server I happen to be working on.
 My method of doing this uses a hosted Git repository and a simple bash script.</description>
     </item>
     
     <item>
       <title>Project: Lights Out</title>
-      <link>http://www.seanduffy.co.uk/2013/09/16/project-lights-out/</link>
+      <link>https://sean-duffy.github.io/2013/09/16/project-lights-out/</link>
       <pubDate>Mon, 16 Sep 2013 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2013/09/16/project-lights-out/</guid>
+      <guid>https://sean-duffy.github.io/2013/09/16/project-lights-out/</guid>
       <description>This project is a Python recreation of the classic game Lights Out using the Tkinter package for the GUI, which I built a couple of weeks ago. It was very simple and didn&amp;rsquo;t take long, but I thought it&amp;rsquo;d be a good opportunity to use Tkinter and work on a fun puzzle game that I enjoy playing.
 Lights Out was originally released by Tiger Toys in 1995 as an electronic puzzle game.</description>
     </item>
     
     <item>
       <title>Project: Quadcopter Build</title>
-      <link>http://www.seanduffy.co.uk/2013/09/10/project-quadcopter-build/</link>
+      <link>https://sean-duffy.github.io/2013/09/10/project-quadcopter-build/</link>
       <pubDate>Tue, 10 Sep 2013 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2013/09/10/project-quadcopter-build/</guid>
+      <guid>https://sean-duffy.github.io/2013/09/10/project-quadcopter-build/</guid>
       <description>Quadcopters are something I&amp;rsquo;ve been interested in for some time, when I first saw one I was amazed by the agility and stability it displayed and immediately wanted to know more. Being a programmer, the fact that carefully designed control software is the only thing that allows quadcopters to stay in the air furthered my interest. Since then I&amp;rsquo;ve bought a couple of cheap RC quadcopters, which I&amp;rsquo;ve had a lot of fun flying.</description>
     </item>
     
     <item>
       <title>ScraperWiki: Part II</title>
-      <link>http://www.seanduffy.co.uk/2013/09/05/scraperwiki-part-ii/</link>
+      <link>https://sean-duffy.github.io/2013/09/05/scraperwiki-part-ii/</link>
       <pubDate>Thu, 05 Sep 2013 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2013/09/05/scraperwiki-part-ii/</guid>
+      <guid>https://sean-duffy.github.io/2013/09/05/scraperwiki-part-ii/</guid>
       <description>I&amp;rsquo;m now in my fourth week at ScraperWiki, and have been working on all kinds of things. The project that I&amp;rsquo;ve had the most involvement in has been the development of the Wikipedia Infobox Tool. This is a currently incomplete tool for the ScraperWiki platform which extracts structured data from Wikipedia. It does this by parsing the contents of the infoboxes on each article in a category and saving them into a database table, where each column is an infobox attribute and each row is an article.</description>
     </item>
     
     <item>
       <title>ScraperWiki: Part I</title>
-      <link>http://www.seanduffy.co.uk/2013/09/03/scraperwiki-part-i/</link>
+      <link>https://sean-duffy.github.io/2013/09/03/scraperwiki-part-i/</link>
       <pubDate>Tue, 03 Sep 2013 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2013/09/03/scraperwiki-part-i/</guid>
+      <guid>https://sean-duffy.github.io/2013/09/03/scraperwiki-part-i/</guid>
       <description>Yesterday was the first day of my internship at Liverpool-based startup ScraperWiki. ScraperWiki offers a web-based platform that allows individuals and businesses to do data science on the web, providing tools that allow them to get, clean, analyse and visualise their data. They also offer professional data services, whereby their resident data scientists can help organisations to collect and analyse the data they are interested in.
 I found ScraperWiki when I spotted their job advertisement in a &amp;ldquo;Who&amp;rsquo;s Hiring?</description>
     </item>
     
     <item>
       <title>My New Blog</title>
-      <link>http://www.seanduffy.co.uk/2013/07/15/my-new-blog/</link>
+      <link>https://sean-duffy.github.io/2013/07/15/my-new-blog/</link>
       <pubDate>Mon, 15 Jul 2013 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2013/07/15/my-new-blog/</guid>
+      <guid>https://sean-duffy.github.io/2013/07/15/my-new-blog/</guid>
       <description>Hi, I&amp;rsquo;m Sean, welcome to my new blog! If you don&amp;rsquo;t know who I am, you can visit my &amp;lsquo;about&amp;rsquo; page for a vague idea.
 For a while I&amp;rsquo;ve been considering setting up a blog since I think it&amp;rsquo;s good to be able to document your thoughts and experiences, just in case someone someday finds them interesting, or even helpful! I&amp;rsquo;m not sure how interesting or helpful this blog will prove to be, but I suppose it&amp;rsquo;s worth a try.</description>
     </item>
     
     <item>
       <title>Project: Portfolio Tool</title>
-      <link>http://www.seanduffy.co.uk/2013/07/15/project-portfolio-tool/</link>
+      <link>https://sean-duffy.github.io/2013/07/15/project-portfolio-tool/</link>
       <pubDate>Mon, 15 Jul 2013 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2013/07/15/project-portfolio-tool/</guid>
+      <guid>https://sean-duffy.github.io/2013/07/15/project-portfolio-tool/</guid>
       <description>This is a web application I built in late 2012 while I was studying Computational Investing, an online course offered by coursera.org which provides an introduction to the programming side of quantitative analysis for finance, dealing particularly with hedge funds. I really enjoyed this course and I&amp;rsquo;d recommend it to anyone interested in computer science, finance, or both. It assumes only a basic knowledge of programming and pretty much no knowledge of finance or the stock market.</description>
     </item>
     
     <item>
       <title>Vintage Computer Collection</title>
-      <link>http://www.seanduffy.co.uk/2013/07/15/vintage-computer-collection/</link>
+      <link>https://sean-duffy.github.io/2013/07/15/vintage-computer-collection/</link>
       <pubDate>Mon, 15 Jul 2013 10:00:00 +0000</pubDate>
       
-      <guid>http://www.seanduffy.co.uk/2013/07/15/vintage-computer-collection/</guid>
+      <guid>https://sean-duffy.github.io/2013/07/15/vintage-computer-collection/</guid>
       <description>If you&amp;rsquo;ve read the about section on this site then you may know that I have a modest collection of 1980s computers. In this post I&amp;rsquo;m going to give a brief tour of my collection so far and give background for each computer, both in a historical context and with regards to how and why I acquired it. So without further ado, in the order that they were added to my collection, here they are!</description>
     </item>
     
